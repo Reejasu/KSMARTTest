@@ -1,0 +1,6 @@
+1. Application to add employee details
+2. Create Employee entity model with entity name : emplyee_details , it contains columns of emp_id,emp_name,emp_designation, emp_phone,emp_dob,primary key(UUID id)
+3. Create EmployeeRepository interface extends from JPA Repository
+4. Create EmployeeService class with save function
+5. Create RestController and   call service class after validation of each json parameters
+6. Response display with HttpStatus with Employee id.
